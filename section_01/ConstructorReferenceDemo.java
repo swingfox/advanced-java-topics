@@ -1,4 +1,5 @@
-package section_01_lambda_expressions;
+package section_01;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
@@ -22,7 +23,7 @@ public class ConstructorReferenceDemo {
         // Function<T,R>
         //      R apply(T)
         //          List<String> apply(Integer)
-        Function<Integer,List<String>> alL = x -> new ArrayList(x);
+        Function<Integer,List<String>> alL = x -> new ArrayList<>(x);
         Function<Integer,List<String>> alMR = ArrayList::new;
 
         List<String> ls1 = alL.apply(10); // size 10

@@ -1,4 +1,5 @@
-package section_01_lambda_expressions;
+package section_01;
+
 import java.util.function.Predicate;// pre-defined in the API
 
 // my own custom Functional Interface

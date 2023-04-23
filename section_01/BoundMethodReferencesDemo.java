@@ -1,4 +1,5 @@
-package section_01_lambda_expressions;
+package section_01;
+
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 

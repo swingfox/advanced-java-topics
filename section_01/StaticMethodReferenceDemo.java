@@ -1,4 +1,5 @@
-package section_01_lambda_expressions;
+package section_01;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
